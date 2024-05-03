@@ -1,0 +1,26 @@
+import os
+os.system("cls||clear")
+
+primeiroNumero = int(input("Digite o primeiro número: "))
+segundooNumero = int(input("Digite o segundo número: "))
+media = (primeiroNumero + segundooNumero) / 2
+soma = primeiroNumero + segundooNumero
+produto = primeiroNumero * segundooNumero
+maior = int
+menor = int
+if primeiroNumero > segundooNumero:
+    maior = primeiroNumero
+else:    
+    maior = segundooNumero
+if primeiroNumero < segundooNumero:
+    menor = primeiroNumero
+else:    
+    maior = segundooNumero
+
+
+os.system("cls||clear")
+print(f"Média: {media}")
+print(f"Soma: {soma}")
+print(f"Produto: {produto}")
+print(f"Maior número: {maior}")
+print(f"Menor número: {menor}")
