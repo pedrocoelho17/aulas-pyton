@@ -24,3 +24,5 @@ print(f"Soma: {soma}")
 print(f"Produto: {produto}")
 print(f"Maior número: {maior}")
 print(f"Menor número: {menor}")
+if primeiroNumero == segundooNumero:
+    print("Os número são iguais.")
